@@ -1,0 +1,67 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	new file:   img/splash/ios/Thumbs.db
+#	modified:   img/splash/ios/splash1024x768.png
+#	modified:   img/splash/ios/splash1496x2048.png
+#	modified:   img/splash/ios/splash1536x2008.png
+#	modified:   img/splash/ios/splash2048x1496.png
+#	modified:   img/splash/ios/splash320x460.png
+#	modified:   img/splash/ios/splash320x480.png
+#	modified:   img/splash/ios/splash640x1096.png
+#	modified:   img/splash/ios/splash640x1136.png
+#	modified:   img/splash/ios/splash640x920.png
+#	modified:   img/splash/ios/splash640x960.png
+#	modified:   img/splash/ios/splash748x1024.png
+#	modified:   img/splash/ios/splash768x1004.png
+#	modified:   img/splash/ios/splash768x1024.png
+#
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   img/icons/android/hdpi.png
+#	modified:   img/icons/android/ldpi.png
+#	modified:   img/icons/android/mdpi.png
+#	modified:   img/icons/android/xhdpi.png
+#	modified:   img/icons/android/xxhdpi.png
+#	modified:   img/icons/android/xxxhdpi.png
+#	modified:   img/icons/favicons/icon120.png
+#	modified:   img/icons/favicons/icon144.png
+#	modified:   img/icons/favicons/icon152.png
+#	modified:   img/icons/favicons/icon16.png
+#	modified:   img/icons/favicons/icon32.png
+#	modified:   img/icons/favicons/icon57.png
+#	modified:   img/icons/favicons/icon64.png
+#	modified:   img/icons/favicons/icon72.png
+#	modified:   img/icons/favicons/icon76.png
+#	modified:   img/icons/ios/icon114.png
+#	modified:   img/icons/ios/icon120.png
+#	modified:   img/icons/ios/icon144.png
+#	modified:   img/icons/ios/icon152.png
+#	modified:   img/icons/ios/icon57.png
+#	modified:   img/icons/ios/icon72.png
+#	modified:   img/icons/ios/icon76.png
+#	modified:   img/icons/webapp/icon128.png
+#	modified:   img/icons/webapp/icon16.png
+#	modified:   img/icons/webapp/icon256.png
+#	modified:   img/icons/webapp/icon30.png
+#	modified:   img/icons/webapp/icon32.png
+#	modified:   img/icons/webapp/icon48.png
+#	modified:   img/icons/webapp/icon512.png
+#	modified:   img/icons/webapp/icon60.png
+#	modified:   img/icons/webapp/icon64.png
+#	modified:   img/icons/webapp/icon90.png
+#	modified:   img/icons/winphone/icon.png
+#	modified:   img/icons/winphone/tileicon.png
+#	modified:   index.html
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	img/warning.png
+

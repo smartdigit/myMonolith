@@ -1,16 +1,16 @@
 <!doctype html>
 <html manifest="manifest.appcache" lang="en"> 
 	<head> 
-        <title>APPLICATION NAME</title> 
+        <title>my Monolith</title> 
         
         <!-- WEB SEARCH META TAGS -->
         <meta charset="utf-8">
-        <meta name="application-name" content="APPLICATION NAME" />
-        <meta name="author" content="AUTHOR NAME (@TWITTER)" />
-        <meta name="description" content="APPLICATION DESCRIPTION" />
-        <meta name="keywords" content="keywords,separated,by,commas" />
-        <meta name="copyright" content="© 2013 AUTHOR" />
-        <meta name="generator" content="AUTHOR" />
+        <meta name="application-name" content="my Monolith" />
+        <meta name="author" content="SmartDigit.pt" />
+        <meta name="description" content="my Monolith" />
+        <meta name="keywords" content="my Monolith" />
+        <meta name="copyright" content="© 2014 smartdigit" />
+        <meta name="generator" content="smartdigit" />
         <meta name="robots" content="index,follow,snippet,archive" />
         <meta name="revisit-after" content="7 days">
         
@@ -54,12 +54,25 @@
         <link rel="stylesheet" type="text/css" href="js/lib/add2home.css">
         <script type="application/javascript" src="js/lib/add2home.js"></script>
     </head> 
-    <body> 
-        
-		<script type="text/javascript" >window.location.replace("http://smartdigit.dyndns.org:83/mymonolith/");</script>
-        
-        
-        <!-- SCRIPTS -->
+    <body style="background:crimson;"> 
         <script type="application/javascript" src="js/lib/jquery-2.0.3.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function(){
+				
+				$.ajax({
+					url:'http://smartdigit.dyndns.org:83/mymonolith/',
+					type: "HEAD",
+					timeout:1000,
+					error: function(){
+						$('#no_connection').show();
+					}
+				}).success(function(response){
+					window.location.replace("http://smartdigit.dyndns.org:83/mymonolith/");
+				});
+				
+			});
+		</script>
+		<p><center><img src="img/warning.png"></center></p>
+		<p style="display:none;" id="no_connection" style="font-color:white;"><center><h3><strong>Please check internet connection or contact support<strong></h3></center></p>
     </body>
 </html>
