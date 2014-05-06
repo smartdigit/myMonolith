@@ -60,14 +60,14 @@
 			jQuery(document).ready(function(){
 				
 				$.ajax({
-					url:'http://smartdigit.dyndns.org:83/mymonolith/',
+					url:'http://my.monolith-gruppe.com/',
 					type: "HEAD",
 					timeout:1000,
 					error: function(){
 						$('#no_connection').show();
 					}
 				}).success(function(response){
-					window.location.replace("http://smartdigit.dyndns.org:83/mymonolith/");
+					window.location.replace("http://my.monolith-gruppe.com/");
 				});
 				
 			});
